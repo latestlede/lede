@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: OpenWrt-CI
+name: changelittle
 
 on:
   push:
@@ -20,11 +20,11 @@ on:
 
 jobs:
 
-  build_openwrt:
+  build:
 
-    name: Build OpenWrt
+    # name: Build OpenWrt
     runs-on: ubuntu-latest
-    if: github.event.repository.owner.id == github.event.sender.id
+    # if: github.event.repository.owner.id == github.event.sender.id
 
     steps:
 
