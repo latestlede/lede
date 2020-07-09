@@ -8,7 +8,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: QZ
+name: OpenWrt-CI
 
 on:
   push:
